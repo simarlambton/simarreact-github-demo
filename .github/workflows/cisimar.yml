@@ -14,10 +14,10 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v3
 
-      - name: Set up Node.js
+      - name: Set up Node.js 20
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '20' # Explicitly using Node.js 20
 
       - name: Install dependencies
         run: npm install
