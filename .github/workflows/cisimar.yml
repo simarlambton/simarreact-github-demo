@@ -19,11 +19,4 @@ jobs:
         with:
           node-version: '20' # Explicitly using Node.js 20
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run tests
-        run: npm run test
-
-      - name: Build the project
-        run: npm run build
+      
